@@ -4,3 +4,4 @@
  Irei fazer um página sobre Batman Beyond.
 
 <!--Vou utilizar HTML, CSS e JavaScript-->
+/*Vou utilizar HTML, CSS e JavaScript*/
