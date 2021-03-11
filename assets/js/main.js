@@ -1,7 +1,5 @@
 /*
-	Caminar by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Direitos  Thiago Porto
 */
 
 (function($) {
@@ -20,7 +18,7 @@
 			$body 		= $('body'),
 			$header 	= $('#header');
 
-		// Disable animations/transitions until the page has loaded.
+		//mDesabilite animações / transições até que a página seja carregada.
 			$body.addClass('is-loading');
 
 			$window.on('load', function() {
@@ -29,7 +27,7 @@
 				}, 100);
 			});
 
-		// Prioritize "important" elements on medium.
+		// Priorize elementos "importantes" no meio.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
 					'.important\\28 medium\\29',
@@ -37,7 +35,7 @@
 				);
 			});
 
-		// Gallery.
+		// Galeria.
 			$('.gallery').poptrox();
 
 	});
